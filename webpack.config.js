@@ -46,7 +46,7 @@ module.exports = {
     zlib: 'empty',
   },
   optimization: {
-    minimize: true,
+    minimize: false,
     minimizer: [
       new TerserJSPlugin({
         cache: false,
