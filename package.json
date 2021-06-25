@@ -113,12 +113,6 @@
     "src/client/voice/util/Silence.js": false,
     "src/client/voice/util/VolumeInterface.js": false
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.ts": "prettier --write"
